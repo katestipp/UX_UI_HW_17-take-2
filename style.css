@@ -3,19 +3,96 @@ html{
     max-width: 100%;
     color: #161916;
 }
-.gfg {
-    margin: 3%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+  }
+  
+li {
+    display: inline-block;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-right: 25px;
+    float: right;
+    padding-bottom: 10px;
+}
+/* hero */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-family: 'Lilita One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* about */
+.about {
+    background-color: #355E3B;
+    width: 100%;
+    padding-top: 0;
     position: relative;
 }
-
-.first-txt {
-    position: absolute;
-    top: 17px;
-    left: 20px;
+p {
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin: right 50px;
+    margin-left: 50px;
+    padding-top: 35px;
 }
-
-.second-txt {
+.btn-green {
+    border-radius: 35px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #98AD39;
+    justify-content: center;
+    align-items: center;
+}
+/* outside */
+.outside {
+    background-color: #161916;
+    width: 100%;
+    padding-top: 0;
+    position: relative;
+}
+h2 {
+    font-family: 'Lilita One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: white;
     position: absolute;
-    top: 17px;
-    left: 150px;
+    top: 15%;
+    left: 10%;
+}
+p2 {
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin: right 50px;
+    margin-left: 50px;
+    padding-top: 35px;
+}
+.btn-dkpink {
+    border-radius: 35px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #B26466;
+    justify-content: center;
+    align-items: center;
+}
+.boy {
+    align-items: left;
+    padding-top: 10px;
 }
