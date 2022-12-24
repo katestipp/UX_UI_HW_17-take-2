@@ -9,7 +9,15 @@ ul {
     padding: 0;
     align-items: flex-end;
   }
-  
+.logo {
+    float: left;
+}
+.navbar {
+    float: right;
+}
+div {
+    margin: o;
+}
 li {
     display: inline-block;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -83,6 +91,11 @@ p2 {
     margin-left: 50px;
     padding-top: 35px;
 }
+.button-2 {
+  margin: auto;
+  position: relative;
+  width: 28%;
+}
 .btn-dkpink {
     border-radius: 35px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -96,3 +109,6 @@ p2 {
     align-items: left;
     padding-top: 10px;
 }
+
+
+
